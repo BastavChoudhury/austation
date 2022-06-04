@@ -14,7 +14,11 @@
 	else
 		camera_mode_on(user)
 
+<<<<<<< HEAD
 /obj/item/camera/siliconcam/lighteater_act(obj/item/light_eater/light_eater)
+=======
+/obj/item/camera/siliconcam/burn()
+>>>>>>> 160e4c23eb (Fixes lighteater (#7014))
 	return
 
 /obj/item/camera/siliconcam/proc/camera_mode_off(mob/user)
